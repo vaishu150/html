@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="website.php" method="post">
+        <div>
+        <label for="Username">USERNAME : </label>
+        <input type="text" name="username" id="Username" placeholder="name" required>
+        </div>
+        <br>
+        <div>
+        <label for="pass"> PASSWORD : </label>
+        <input type="password" name="password" id="pass" placeholder="123" required>
+        </div>
+        <br>
+        <div>
+        <label for="mail">Email</label>
+        <input type="text" name="mailid" id="mail" placeholder="@gmail.com" required>
+        </div>
+        <br>
+        <div>
+        <label>Are you student :</label>
+        <input type="radio" name="button" >male
+        <input type="radio" name="button">female
+        <input type="radio" name="button">other
+        </div>
+        <br>
+        <div>
+        <label> Select city</label>
+        <select name="City"><option value="Medak">Medak</option><option value="hyderabad">hyderabad</option></select>
+        </div> 
+        <br>
+        <div>
+            <label for="D.O.B">D.O.B</label>
+            <input type="date" name="date" value="year" id="D.O.B" required>
+        </div>
+        <br>
+        <div>
+        <input type="checkbox" name="box"required>
+        <label> all the above details ar correct</label>
+        </div>
+        <br>
+        <div>
+        <input type="submit" name="Done" required>
+        </div>
+    </form>
+
+</body>
+</html>
